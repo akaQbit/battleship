@@ -183,5 +183,3 @@ class Game:
 
         self.player1.print_ships()
         self.player2.print_ships()
-
-#Game()

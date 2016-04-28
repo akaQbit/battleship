@@ -1,5 +1,10 @@
 from game import Game
 
 
+class Battleship:
+    @staticmethod
+    def start_battle():
+        Game()
+
 if __name__ == '__main__':
-    Game()
+    Battleship.start_battle()
